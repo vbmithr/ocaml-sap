@@ -1,0 +1,25 @@
+Draft for a Simple Addressbook Sync Protocol (SASP)
+---------------------------------------------------
+
+Strongly inspired from SMTP.
+One vcard per line.
+
+< CMD ARGS
+> CODE RESP
+
+Return codes could be:
+
+Code for positive answers (Ok)
+Code for negative answers (Error)
+
+* Commands:
+
+- submit a card:
+
+< SUBMIT
+> Ok msg
+
+- retrieve cards regexp
+
+
+- merge cards ?
